@@ -1,0 +1,10 @@
+f=open("cs.txt","w")
+f.write("welcome to mru")
+f.close()
+f=open("cs.txt","a")
+f.write("cs-alpha")
+f.close()
+f=open("cs.txt","r")
+print(f.read())
+f.close()
+        
